@@ -1,0 +1,170 @@
+/* Style untuk Tokoobat */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+/* Header */
+header {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-top {
+    margin-top: 0;
+    padding: 10px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff; /* Tambahkan jika diperlukan */
+}
+
+.search-bar {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon .icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain; /* Sesuaikan ukuran */
+}
+
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header-icons .icon-profile, .icon-cart {
+    margin-left: 15px;
+}
+
+.header-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.header-icons img:hover {
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+/* Navbar */
+
+.navbar {
+    margin: 90px 0 20px 0;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #146C94;
+}
+
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tb-details, .tb-care, .tb-sosmed {
+    flex: 1;
+    padding: 0 10px;
+}
+
+footer h3 {
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.sosmed-icons {
+    display: flex;
+    align-items: center;
+}
+
+.sosmed-icons img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.sosmed-icons img:hover {
+    opacity: 0.8;
+}
