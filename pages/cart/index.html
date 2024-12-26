@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../public/tokoobat-ic-hd-w.png" />
+    <title>Cart : Tokoobat</title>
+    <link rel="stylesheet" href="../../style/style.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <img src="../../public/tokoobat.png" alt="Tokoobat Logo" class="logo" />
+        <div class="search-bar-container">
+          <input
+            type="search"
+            class="search-bar"
+            placeholder="Cari di Tokoobat"
+          />
+          <button id="btn-search" class="search-icon">
+            <img
+              src="../../src/icon/icons8-search.svg"
+              alt="Search Icon"
+              class="icon"
+            />
+          </button>
+        </div>
+        <div class="header-icons">
+          <a href="/" class="icon-cart">
+            <img src="../../src/icon/icons8-cart-32.png" alt="Cart" />
+          </a>
+          <a href="./pages/profile/index.html" class="icon-profile">
+            <img src="../../src/icon/icons8-account-64.png" alt="Profile" />
+          </a>
+        </div>
+      </div>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="promo.html">Promo</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="right-container">
+        <h1>Cart</h1>
+        <div class="cart-container">
+          <div class="cart-image">
+            <img src="../../src/products/product.png" alt="Product" />
+          </div>
+          <div class="cart-details">
+            <div class="cart-item-info">
+              <h3>Product 1</h3>
+              <p>Rp 100.000</p>
+            </div>
+            <div class="cart-item-quantity">
+              <div class="qty-rm">
+                <button class="btn-remove">Remove</button>
+              </div>
+              <div class="qty-add">
+                <button class="btn-quantity">-</button>
+                <input type="number" value="1" />
+                <button class="btn-quantity">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="checkout-container" class="left-container">
+        <h2>Checkout</h2>
+        <div class="checkout-details">
+          <div class="checkout-item">
+            <p>Subtotal</p>
+            <p>Rp 100.000</p>
+          </div>
+          <div class="checkout-item">
+            <p>Shipping</p>
+            <p>Rp 10.000</p>
+          </div>
+          <div class="checkout-item">
+            <p>Total</p>
+            <p>Rp 110.000</p>
+          </div>
+          <button class="btn-checkout">Checkout</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="tb-details">
+          <h3>Tokoobat</h3>
+          <ul>
+            <li>Alamat: Jalan ABC No. 123</li>
+            <li>Telepon: +62 812 3456 7890</li>
+            <li>Email: support@tokoobat.com</li>
+          </ul>
+        </div>
+        <div class="tb-care">
+          <h3>Care</h3>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="tb-sosmed">
+          <h3>Follow Us</h3>
+          <div class="sosmed-icons">
+            <a href="#"
+              ><img
+                src="../../src/icon-sosmed/icons8-facebook-50.png"
+                alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img
+                src="../../src/icon-sosmed/icons8-instagram-50.png"
+                alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img
+                src="../../src/icon-sosmed/icons8-tiktok-50.png"
+                alt="TikTok"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./script/index.js"></script>
+  </body>
+</html>

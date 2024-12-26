@@ -51,6 +51,13 @@ header {
     outline: none;
 }
 
+.search-bar::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 0;
+    width: 0;
+    display: none;
+}
+
 .search-icon {
     background-color: transparent;
     border: none;

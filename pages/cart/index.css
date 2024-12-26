@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.right-container {
+    width: 60%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.left-container {
+    width: 40%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+}
