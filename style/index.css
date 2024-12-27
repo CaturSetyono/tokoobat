@@ -1,9 +1,11 @@
 
 /* Promote Section */
 .container-promote {
-    background-color: #f5f5f5;
-    padding: 30px;
+    background-color:#86EE60;
+    margin: 0 4%  0 4%;
+    padding: 20px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .promote-banner h1 {
@@ -63,24 +65,25 @@
 
 .card h3 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .card p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: bold;
 }
 
 .card button {
     padding: 8px 15px;
-    background-color: #19A7CE;
+    background-color: #86EE60;
     color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .card button:hover {
-    background-color: #146C94;
+    background-color: #6EDC3F;
 }

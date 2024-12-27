@@ -36,60 +36,58 @@
           <a href="/" class="icon-cart">
             <img src="../../src/icon/icons8-cart-32.png" alt="Cart" />
           </a>
-          <a href="./pages/profile/index.html" class="icon-profile">
+          <a href="../profil/index.html" class="icon-profile">
             <img src="../../src/icon/icons8-account-64.png" alt="Profile" />
           </a>
         </div>
       </div>
       <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="promo.html">Promo</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
+        <a href="../../index.html">Home</a>
+        <a href="../promo/index.html">Promo</a>
+        <a href="../about/index.html">About</a>
+        <a href="../blog/index.html">Blog</a>
+        <a href="../contact/index.html">Contact</a>
       </nav>
     </header>
     <main>
-      <section class="right-container">
-        <h1>Cart</h1>
+      <!-- Left Container (Cart Section) -->
+      <section class="left-container">
+        <h1>Keranjang</h1>
+        <div class="cart-header">
+          <input type="checkbox" id="select-all" />
+          <label for="select-all"
+            >Pilih Semua ( <span class="items-count"></span> )</label
+          >
+        </div>
         <div class="cart-container">
-          <div class="cart-image">
-            <img src="../../src/products/product.png" alt="Product" />
-          </div>
-          <div class="cart-details">
-            <div class="cart-item-info">
-              <h3>Product 1</h3>
-              <p>Rp 100.000</p>
+          <!-- <div class="cart-item">
+            <div class="cart-image">
+              <img src="../../src/products/product.png" alt="Product" />
             </div>
-            <div class="cart-item-quantity">
-              <div class="qty-rm">
-                <button class="btn-remove">Remove</button>
+            <div class="cart-details">
+              <div class="cart-item-info">
+                <input type="checkbox" id="select-item" />
+                <h3>Jas Hujan Stelan Ponco</h3>
+                <p>Rp 48.500 <span class="original-price">Rp 70.000</span></p>
               </div>
-              <div class="qty-add">
+              <div class="cart-item-quantity">
+                <button class="btn-icon">
+                  <img src="../../src/icon/icons8-remove.svg" alt="Remove Icon" />
+                </button>
                 <button class="btn-quantity">-</button>
                 <input type="number" value="1" />
                 <button class="btn-quantity">+</button>
-              </div>
+              </div>              
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
-      <section id="checkout-container" class="left-container">
-        <h2>Checkout</h2>
-        <div class="checkout-details">
-          <div class="checkout-item">
-            <p>Subtotal</p>
-            <p>Rp 100.000</p>
-          </div>
-          <div class="checkout-item">
-            <p>Shipping</p>
-            <p>Rp 10.000</p>
-          </div>
-          <div class="checkout-item">
-            <p>Total</p>
-            <p>Rp 110.000</p>
-          </div>
-          <button class="btn-checkout">Checkout</button>
+
+      <!-- Right Container (Checkout Section) -->
+      <section class="right-container">
+        <div class="checkout-summary">
+          <!-- <p>Pilih barang dulu sebelum pakai promo</p>
+          <button class="btn-checkout">Beli</button> -->
         </div>
       </section>
     </main>
@@ -133,6 +131,6 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="./script/index.js"></script>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
