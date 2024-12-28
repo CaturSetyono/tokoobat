@@ -1,0 +1,141 @@
+main {
+    padding: 10px;
+}
+
+/* Promote Banner Section */
+.container-promote-banner {
+    background-color: #86EE60;
+    margin: 3%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.promote-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.promote-banner h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Outfit', sans-serif;
+    color: #ffffff;
+}
+
+.promote-banner p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Bullet Navigation */
+.banner-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bullet.active {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.bullet:hover {
+    background-color: #6EDC3F;
+}
+
+/* Promote Section */
+.promote {
+    margin: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container-promote {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+/* Card Section */
+.card {
+    flex: 0 0 calc(20% - 15px); /* 20% width for 5 cards visible */
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.card p {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #86EE60;
+}
+
+.card button {
+    padding: 8px 15px;
+    background-color: #86EE60;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card button:hover {
+    background-color: #6EDC3F;
+    transform: scale(1.05);
+}

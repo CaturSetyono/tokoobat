@@ -28,7 +28,7 @@ function handleSearch() {
     isSearching = true; // Mode pencarian aktif
     const filteredProducts = searchProducts(products, query);
     renderProducts(filteredProducts, container);
-    attachButtonListeners(); // Pastikan tombol berfungsi
+    attachButtonListeners(); 
   }
 }
 

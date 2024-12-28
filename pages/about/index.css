@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About Section */
+.about-tokoobat {
+    background-color: #ebf8ff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.about-tokoobat h2 {
+    font-size: 2rem;
+    color: #2a4365;
+}
+
+.about-tokoobat p {
+    font-size: 1.1rem;
+    color: #2b6cb0;
+    margin-top: 10px;
+}
+
+/* History Section */
+.history-tokoobat {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.history-tokoobat h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.history-tokoobat p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Job Section */
+.job-tokoobat {
+    background-color: #ebf8ff;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.job-tokoobat .left,
+.job-tokoobat .right {
+    padding: 20px;
+}
+
+.job-tokoobat img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+.job-tokoobat h3 {
+    font-size: 1.5rem;
+    color: #2a4365;
+}
+
+.job-tokoobat p {
+    font-size: 1.1rem;
+    color: #2b6cb0;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .job-tokoobat {
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+    }
+
+    .job-tokoobat .left img,
+    .job-tokoobat .right img {
+        max-width: 60%;
+    }
+}
