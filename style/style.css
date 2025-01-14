@@ -175,3 +175,29 @@ footer a:hover {
 .sosmed-icons img:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 480px) {
+    .search-bar-container {
+        width: 90%; /* Sesuaikan lebar search bar agar lebih proporsional */
+        margin: 10px auto; /* Tambahkan margin untuk memberikan ruang */
+    }
+
+    .search-icon {
+        padding: 5px; /* Kurangi padding untuk perangkat kecil */
+    }
+
+    .search-icon .icon {
+        width: 14px; /* Perkecil ikon */
+        height: 14px;
+    }
+
+    .header-icons img {
+        width: 25px; /* Perkecil ukuran ikon header */
+        height: 25px;
+    }
+
+    .navbar {
+        gap: 15px; /* Sesuaikan jarak antar tautan di navbar */
+        flex-wrap: wrap; /* Buat navbar menjadi wrap jika terlalu panjang */
+    }
+}

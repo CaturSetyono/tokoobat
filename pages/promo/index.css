@@ -96,7 +96,8 @@ main {
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
+ 
 }
 
 .card img {
@@ -138,4 +139,59 @@ main {
 .card button:hover {
     background-color: #6EDC3F;
     transform: scale(1.05);
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 576px) {
+    .card {
+        flex: 0 0 calc(50% - 10px); /* 2 cards per row */
+        padding: 10px;
+    }
+
+    .card img {
+        height: 120px; /* Ukuran gambar lebih kecil agar proporsional */
+    }
+
+    .card-content {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .card h3 {
+        font-size: 0.9rem;
+    }
+
+    .card p {
+        font-size: 0.85rem;
+    }
+
+    .card button {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+}
+
+/* Responsive Styles for Tablets */
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(50% - 10px); /* 3 cards per row */
+        padding: 5px;
+    }
+
+    .card img {
+        height: 130px;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+
+    .card button {
+        padding: 7px 14px;
+        font-size: 0.4rem;
+    }
 }

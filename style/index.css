@@ -98,3 +98,85 @@
 .card button:hover {
     background-color: #6EDC3F;
 }
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .promote-banner h1 {
+        font-size: 2rem;
+    }
+    .promote-banner p {
+        font-size: 1rem;
+    }
+    .promote-banner a {
+        width: 15%;
+    }
+    .card {
+        width: calc(25% - 18px);
+    }
+}
+
+@media (max-width: 992px) {
+    .promote-banner h1 {
+        font-size: 1.8rem;
+    }
+    .promote-banner p {
+        font-size: 0.95rem;
+    }
+    .promote-banner a {
+        width: 20%;
+    }
+    .card {
+        width: calc(33.33% - 18px);
+    }
+}
+
+@media (max-width: 768px) {
+    .promote-banner h1 {
+        font-size: 1.5rem;
+    }
+    .promote-banner p {
+        font-size: 0.9rem;
+    }
+    .promote-banner a {
+        width: 30%;
+    }
+    .card {
+        width: calc(50% - 18px);
+    }
+}
+
+@media (max-width: 576px) {
+    .promote-banner h1 {
+        font-size: 1.2rem;
+    }
+    .promote-banner p {
+        font-size: 0.85rem;
+    }
+    .promote-banner a {
+        width: 40%;
+    }
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 576px) {
+    .card h3, 
+    .card p {
+        display: none; /* Sembunyikan nama dan harga */
+    }
+
+    .card {
+        width: calc(25% - 10px); /* Tetap 4 card per baris */
+        padding: 5px;
+    }
+
+    .card img {
+        height: 50px; /* Ukuran gambar lebih kecil agar proporsional */
+        object-fit: cover;
+    }
+
+    .card button {
+        padding: 5px 10px;
+        font-size: 0.6rem; /* Tombol lebih kecil */
+    }
+}
